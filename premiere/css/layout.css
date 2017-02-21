@@ -1,0 +1,134 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+/*Navigation*/
+
+.site-nav
+{
+	z-index: 1;
+}
+
+.fixed-navbar
+{
+	
+}
+.site-nav ul
+{
+	padding-top:1.5%;
+	padding-left:30%;
+}
+.site-nav ul li
+{
+	font-size:1.2em;
+	display:inline;
+	list-style-type: none;
+}
+
+.site-nav ul li a
+{
+	text-decoration:none;	
+	padding-bottom:0.25%;
+	padding-left: 2.5%;
+	padding-right:2.5%;
+}
+
+#nav_logo
+{
+	margin-left:1%;
+	margin-top:1%;
+	margin-right:2%;
+	padding-bottom:0.5%;
+}
+.nav-icon
+{
+	visibility: hidden;
+}
+
+/*Mobile Navigation*/
+@media screen and (max-width:680px)
+{	
+	.site-nav ul
+	{
+		padding-top:1%;
+		padding-left:1%;
+
+	}
+	.site-nav
+	{
+		padding-bottom:0px;
+	}
+	.row a
+	{
+		width:100%;
+	}
+}
+
+/*General convenience layout css*/
+.center_text
+{
+	text-align:center;
+}
+.float_right
+{
+	float:right;
+}
+/*Center elements on devices ranging from tablets to pc*/
+@media (min-width:768px){
+	.center
+	{
+		margin-left:35% !Important;
+		
+	}
+}
+/*Div containing text*/
+#home_main
+{
+	padding-top:1em;
+	vertical-align: middle;
+}
+
+#home_pic
+{
+	margin-top:-3%;
+	z-index:0;
+	height:30%;
+	
+}
+
+/*Clearfix - For when we use absolute positions (generally 5% less than the -margin of the sibling)*/
+.clearfix div
+{
+	margin-top:20%;
+	clear:both;
+}
+
+/*Footer*/
+footer
+{
+	padding-top:1%;
+}
+
+/*Text area*/
+textarea
+{
+	resize:vertical;
+}
+
+/*Services*/
+.service_info
+{
+	padding:1em;
+	overflow:auto;
+}
+
+.home_container:last-child
+{
+	padding-bottom:2em;
+}

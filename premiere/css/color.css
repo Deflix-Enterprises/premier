@@ -1,0 +1,48 @@
+/*The site navigation class*/
+.site-nav
+{
+	
+	background-color:rgb(0.85,0.85,0.85);
+	color:#1a1a1a;
+	box-shadow:0px 2px 3px #bdc3c7;
+}
+.site-nav li a
+{
+	color:#1a1a1a;
+	height:100%;
+}
+
+.site-nav li a:hover
+{
+	color:#2980b9;
+	transition:color 0.1s;
+}
+
+/*Active link*/
+.active
+{
+	color:#c0392b !Important;
+}
+
+/*Services page*/
+.service_info
+{
+	border-radius:0.5em;
+	border:1px solid #3498db;
+}
+
+a.current_service
+{
+	color:#c0392b;
+}
+
+/*Home container styling*/
+.home_container
+{
+}
+
+#dark_bg
+{
+	background-color:rgba(0.25,0.25,0.25,0.8);
+	color:rgb(0.8,0.8,0.8);
+}
